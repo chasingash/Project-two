@@ -1,4 +1,6 @@
 /* Global settings */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,17 @@
 html {
     box-sizing: border-box;
 }
+
+/* Add background image here */
+body {
+    background-color: #01474f;
+    color: #7bc9a2;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: .2em;
+    margin: 0;
+}
+
 
 /* Game Styling  */
 .row {
