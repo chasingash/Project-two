@@ -39,5 +39,5 @@ body {
 }
 
 .card:hover {
-    border: 1px solid #ffc958;
+    box-shadow: inset 0px 0px 0px 1px #ffc958;
 }
