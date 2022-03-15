@@ -1,0 +1,22 @@
+/* Global settings */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/* Game Styling  */
+.row {
+text-align: center;
+}
+
+.card {
+display: inline-block;
+height: 100px;
+width: 100px;
+background-color: pink;
+}
