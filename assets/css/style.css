@@ -37,3 +37,7 @@ body {
     background-color: #af588b;
     cursor: pointer;
 }
+
+.card:hover {
+    border: 1px solid #ffc958;
+}
