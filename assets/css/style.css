@@ -11,25 +11,28 @@ html {
     box-sizing: border-box;
 }
 
+#header-title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: .2em;
+}
+
 /* Add background image here */
 body {
     background-color: #01474f;
     color: #7bc9a2;
-    text-align: center;
-    font-size: 1.5rem;
-    letter-spacing: .2em;
-    margin: 0;
 }
 
 
 /* Game Styling  */
 .row {
-text-align: center;
+    text-align: center;
 }
 
 .card {
-display: inline-block;
-height: 100px;
-width: 100px;
-background-color: pink;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
 }
