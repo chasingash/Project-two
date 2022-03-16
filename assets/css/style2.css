@@ -186,7 +186,7 @@ Deck of Cards
 ------------------------------------*/
 /*Mobile first responsivness*/
 .deck {
-	background: linear-gradient(to bottom, #5cf, #28e);
+	background: linear-gradient(to bottom, #af588b, #d99aad);
 	border-radius: 1.5em;
 	display: flex;
 	flex-wrap: wrap;
@@ -204,7 +204,7 @@ Deck of Cards
 }
 
 .card {
-	background: #fc4;
+	background: #01474f;
 	border-radius: 0.5em;
 	height: 7em;
 	width: 7em;
