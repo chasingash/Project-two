@@ -30,3 +30,21 @@ body {
     color: #7bc9a2;
 }
 
+/* Game Styling  */
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #af588b;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 0px 1px #ffc958;
+}
+
+
