@@ -1,13 +1,8 @@
 /* Global settings */
 
-
 * {
     margin: 0;
     padding: 0;
-    border: 0;
-}
-
-html {
     box-sizing: border-box;
 }
 
@@ -24,27 +19,93 @@ html {
     font-size: 1rem;
 }
 
-/* Add background image here */
-body {
-    background-color: #01474f;
-    color: #7bc9a2;
+.score-panel {
+    display: flex;
+    justify-content: center;
 }
 
-/* Game Styling  */
-.row {
+.reset {
     text-align: center;
 }
 
+/* Add background image to the body and remove colour */
+
+body {
+    background-color: #01474f;
+    color: #7bc9a2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*----------------------------------  
+Deck of Cards
+------------------------------------*/
+
+/* Mobile first responsiveness */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+section {
+    background: linear-gradient(to bottom, #af588b, #d99aad);
+    border-radius: 1.7em;
+    display: grid;
+    height: 30em;
+    width: 30em;
+    margin-top: 2em;
+    padding: 0.7em;
+    grid-template-columns: repeat(4, 7rem);
+    grid-template-rows: repeat(4, 7rem);
+    justify-items: center;
+    grid-gap: .2rem;
+    perspective: 800px;
+}
+
 .card {
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    background-color: #af588b;
-    cursor: pointer;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    height: 6em;
+    width: 6em;
+    margin-top: ;
 }
 
-.card:hover {
-    box-shadow: inset 0px 0px 0px 1px #ffc958;
+.face,
+.back {
+    width: 100%;
+    height: 100%;
+    border-radius: .5em;
+    position: absolute;
+
+}
+
+.back {
+    background: #01474f;
+    backface-visibility: hidden;
+
+}
+
+.toggleCard {
+    transform: rotateY(180deg);
 }
 
 
+/* footer */
+
+footer {
+    height: 2em;
+}
+
+.footer-text {
+    margin: 1em 0;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
