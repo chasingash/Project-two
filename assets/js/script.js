@@ -25,10 +25,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
       { imgSrc: "./assets/images/card8.jpg", id: 16, name: "card8" },
     ];
   
-    //We need to shuffle the cards 🃏
+    //We need to shuffle the cards
     cardData.sort(() => Math.random() - 0.5);
   
-    //We generate the cards ♣️
+    //We generate the cards
     cardData.forEach((item) => {
       const section = document.querySelector("section");
       const card = document.createElement("div");

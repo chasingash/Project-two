@@ -1,5 +1,5 @@
 // Array of Deck of Card Images
-const deckCards = ["Agility.png", "Agility.png", "Boat.png", "Boat.png", "Citizenship.png", "Citizenship.png", "Hack.png", "Hack.png", "Nerd-Rage.png", "Nerd-Rage.png", "Nuka-Cola.png", "Nuka-Cola.png", "Robotics.png", "Robotics.png", "Shock.png", "Shock.png"];
+const deckCards = ["card1.jpg", "card1.jpg", "card2.jpg", "card2.jpg", "card3.jpg", "card3.jpg", "card4.jpg", "card4.jpg", "card5.jpg", "card5.jpg", "card6.jpg", "card6.jpg", "card7.jpg", "card7.jpg", "card8.jpg", "card8.jpg"];
 
 // Global Arrays
 // Access the <ul> with class of .deck
@@ -69,7 +69,7 @@ function startGame() {
 		// Append <img> to <li>
 		liTag.appendChild(addImage);
 		// Set the img src path with the shuffled deck
-		addImage.setAttribute("src", "https://github.com/FoxyStoat/memory-game/blob/master/assets/img/" + shuffledDeck[i] + "?raw=true");
+		addImage.setAttribute("src", "assets/images/" + shuffledDeck[i] + "?raw=true");
 		// Add an alt tag to the image
 		addImage.setAttribute("alt", "image of vault boy from fallout");
 		// Update the new <li> to the deck <ul>
